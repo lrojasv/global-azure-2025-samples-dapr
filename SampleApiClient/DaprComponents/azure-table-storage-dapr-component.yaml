@@ -1,0 +1,16 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-table-storage-client
+spec:
+  type: state.azure.tablestorage
+  version: v1
+  metadata:
+  - name: accountName
+    value: 
+  - name: accountKey
+    value: 
+  - name: tableName
+    value: client
+# - name: cosmosDbMode
+#   value: false
