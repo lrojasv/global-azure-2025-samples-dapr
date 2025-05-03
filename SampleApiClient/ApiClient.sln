@@ -13,6 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", 
 		DaprComponents\azure-table-storage-dapr-component.yaml = DaprComponents\azure-table-storage-dapr-component.yaml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aca", "Aca", "{8B7CAA00-E35E-4250-AAB6-94C238958EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{18270D75-E538-4697-9D2F-3C8467DBAE71}"
+	ProjectSection(SolutionItems) = preProject
+		test.yaml = test.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +36,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F3B38295-5E66-4687-A018-4A3449DC4AB4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{18270D75-E538-4697-9D2F-3C8467DBAE71} = {8B7CAA00-E35E-4250-AAB6-94C238958EC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06E7E5FB-217A-479B-9D96-418E6DFF0A07}
